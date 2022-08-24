@@ -16,6 +16,7 @@ is greater than 5")
 than 6 and not 0")
 
 else:
+    last_digit = last_digit * -1
     print(
-        f"Last digit of {number:d} is -{last_digit:d} and is less than \
+        f"Last digit of {number:d} is {last_digit:d} and is less than \
 6 and not 0")
